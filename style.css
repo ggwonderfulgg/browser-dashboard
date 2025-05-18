@@ -1,0 +1,27 @@
+/* 清除默认样式 */
+ul.navbar {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+}
+
+/* 设置导航栏选项为水平排列 */
+ul.navbar li {
+float: left;
+}
+
+/* 设置导航栏链接样式 */
+ul.navbar li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+/* 鼠标悬停时改变背景颜色 */
+ul.navbar li a:hover {
+background-color: #111;
+}
