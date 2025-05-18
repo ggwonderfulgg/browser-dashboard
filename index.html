@@ -3,101 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>浏览器导航页</title>
+    <title>浏览器主页</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>欢迎来到我的浏览器导航页</h1>
+        <!-- 标题和搜索框 -->
+        <header>
+            <h1>常用网站导航</h1>
+            <div class="search-bar">
+                <input type="text" placeholder="搜索或输入网址">
+                <button class="search-button">搜索</button>
+            </div>
+        </header>
 
-        <!-- 软件资源 分类 -->
-        <h2>软件资源</h2>
-        <ul>
-            <li><a href="https://pan.baidu.com/s/1Awu-n6voPuNRokXO2P1wvw?pwd=gsem" target="_blank">百度网盘</a></li>
-            <li><a href="https://www.123865.com/s/BoRRVv-qdsxh" target="_blank">123云盘</a></li>
-            <li><a href="https://pan.quark.cn/s/8e98d6a8f7be" target="_blank">夸克网盘</a></li>
-            <li><a href="https://www.ghxi.com/" target="_blank">果核剥壳</a></li>
-            <li><a href="https://msdn.itellyou.cn/" target="_blank">MSDN</a></li>
-            <li><a href="https://www.appinn.com/" target="_blank">小众软件</a></li>
-            <li><a href="https://alternativeto.net/" target="_blank">AlternativeTo</a></li>
-            <li><a href="https://www.softpedia.com/" target="_blank">Softpedia</a></li>
-            <li><a href="https://file.cnxiaobai.com/" target="_blank">小白网盘资源</a></li>
-            <li><a href="https://ninite.com/" target="_blank">Ninite</a></li>
-        </ul>
+        <!-- 分类部分 -->
+        <div class="categories">
+            <div class="category">
+                <h2>软件资源</h2>
+                <div class="shortcuts">
+                    <div class="shortcut">
+                        <a href="https://pan.baidu.com/s/1Awu-n6voPuNRokXO2P1wvw?pwd=gsem" target="_blank">
+                            <img src="icons/baidu.png" alt="百度网盘">
+                            <span>百度网盘</span>
+                        </a>
+                    </div>
+                    <div class="shortcut">
+                        <a href="https://www.123865.com/s/BoRRVv-qdsxh" target="_blank">
+                            <img src="icons/123yun.png" alt="123云盘">
+                            <span>123云盘</span>
+                        </a>
+                    </div>
+                    <div class="shortcut">
+                        <a href="https://pan.quark.cn/s/8e98d6a8f7be" target="_blank">
+                            <img src="icons/quark.png" alt="夸克网盘">
+                            <span>夸克网盘</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
 
-        <!-- 开发者资源 分类 -->
-        <h2>开发者资源</h2>
-        <ul>
-            <li><a href="https://www.oschina.net/" target="_blank">开源中国</a></li>
-            <li><a href="https://developer.mozilla.org/" target="_blank">MDN Web Docs</a></li>
-            <li><a href="https://www.w3.org/" target="_blank">W3C</a></li>
-            <li><a href="https://stackoverflow.com/" target="_blank">Stack Overflow</a></li>
-            <li><a href="https://juejin.cn/" target="_blank">掘金</a></li>
-            <li><a href="https://www.freecodecamp.org/" target="_blank">FreeCodeCamp</a></li>
-            <li><a href="https://www.runoob.com/" target="_blank">菜鸟教程</a></li>
-            <li><a href="https://github.com/" target="_blank">GitHub</a></li>
-            <li><a href="https://gitee.com/" target="_blank">Gitee</a></li>
-            <li><a href="https://gitlab.com/" target="_blank">GitLab</a></li>
-            <li><a href="https://bitbucket.org/" target="_blank">Bitbucket</a></li>
-            <li><a href="https://coding.net/" target="_blank">Coding</a></li>
-            <li><a href="https://sourceforge.net/" target="_blank">SourceForge</a></li>
-            <li><a href="https://www.codebase.com/" target="_blank">Codebase</a></li>
-        </ul>
+            <div class="category">
+                <h2>开发者资源</h2>
+                <div class="shortcuts">
+                    <div class="shortcut">
+                        <a href="https://www.oschina.net/" target="_blank">
+                            <img src="icons/oschina.png" alt="开源中国">
+                            <span>开源中国</span>
+                        </a>
+                    </div>
+                    <div class="shortcut">
+                        <a href="https://developer.mozilla.org/" target="_blank">
+                            <img src="icons/mdn.png" alt="MDN Web Docs">
+                            <span>MDN Web Docs</span>
+                        </a>
+                    </div>
+                    <div class="shortcut">
+                        <a href="https://www.w3.org/" target="_blank">
+                            <img src="icons/w3c.png" alt="W3C">
+                            <span>W3C</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
 
-        <!-- 设计资源 分类 -->
-        <h2>设计资源</h2>
-        <ul>
-            <li><a href="https://www.figma.com/" target="_blank">Figma</a></li>
-            <li><a href="https://dribbble.com/" target="_blank">Dribbble</a></li>
-            <li><a href="https://www.behance.net/" target="_blank">Behance</a></li>
-            <li><a href="https://www.ui.cn/" target="_blank">UI中国</a></li>
-            <li><a href="https://www.zcool.com.cn/" target="_blank">站酷</a></li>
-            <li><a href="https://www.awwwards.com/" target="_blank">Awwwards</a></li>
-            <li><a href="https://www.pinterest.com/" target="_blank">Pinterest</a></li>
-            <li><a href="https://unsplash.com/" target="_blank">Unsplash</a></li>
-            <li><a href="https://www.iconfont.cn/" target="_blank">Iconfont</a></li>
-            <li><a href="https://fontawesome.com/" target="_blank">Font Awesome</a></li>
-            <li><a href="https://fonts.google.com/" target="_blank">Google Fonts</a></li>
-            <li><a href="https://www.pexels.com/" target="_blank">Pexels</a></li>
-            <li><a href="https://www.flaticon.com/" target="_blank">Flaticon</a></li>
-            <li><a href="https://color.adobe.com/" target="_blank">Adobe Color</a></li>
-        </ul>
+            <div class="category">
+                <h2>设计资源</h2>
+                <div class="shortcuts">
+                    <div class="shortcut">
+                        <a href="https://www.figma.com/" target="_blank">
+                            <img src="icons/figma.png" alt="Figma">
+                            <span>Figma</span>
+                        </a>
+                    </div>
+                    <div class="shortcut">
+                        <a href="https://dribbble.com/" target="_blank">
+                            <img src="icons/dribbble.png" alt="Dribbble">
+                            <span>Dribbble</span>
+                        </a>
+                    </div>
+                    <div class="shortcut">
+                        <a href="https://www.behance.net/" target="_blank">
+                            <img src="icons/behance.png" alt="Behance">
+                            <span>Behance</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
 
-        <!-- 学习教育 分类 -->
-        <h2>学习教育</h2>
-        <ul>
-            <li><a href="https://www.icourse163.org/" target="_blank">中国大学MOOC</a></li>
-            <li><a href="https://www.xuetangx.com/" target="_blank">学堂在线</a></li>
-            <li><a href="https://www.imooc.com/" target="_blank">慕课网</a></li>
-            <li><a href="https://open.163.com/" target="_blank">网易公开课</a></li>
-            <li><a href="https://www.coursera.org/" target="_blank">Coursera</a></li>
-            <li><a href="https://www.edx.org/" target="_blank">edX</a></li>
-            <li><a href="https://www.khanacademy.org/" target="_blank">Khan Academy</a></li>
-        </ul>
-
-        <!-- 效率工具 分类 -->
-        <h2>效率工具</h2>
-        <ul>
-            <li><a href="https://www.notion.so/" target="_blank">Notion</a></li>
-            <li><a href="https://www.processon.com/" target="_blank">ProcessOn</a></li>
-            <li><a href="https://naotu.baidu.com/" target="_blank">百度脑图</a></li>
-            <li><a href="https://www.canva.com/" target="_blank">Canva</a></li>
-            <li><a href="https://app.diagrams.net/" target="_blank">draw.io</a></li>
-            <li><a href="https://docs.qq.com/" target="_blank">腾讯文档</a></li>
-            <li><a href="https://trello.com/" target="_blank">Trello</a></li>
-        </ul>
-
-        <!-- 技术资讯 分类 -->
-        <h2>技术资讯</h2>
-        <ul>
-            <li><a href="https://techcrunch.com/" target="_blank">TechCrunch</a></li>
-            <li><a href="https://www.theverge.com/" target="_blank">The Verge</a></li>
-            <li><a href="https://www.wired.com/" target="_blank">Wired</a></li>
-            <li><a href="https://www.36kr.com/" target="_blank">36氪</a></li>
-            <li><a href="https://sspai.com/" target="_blank">少数派</a></li>
-            <li><a href="https://www.ifanr.com/" target="_blank">爱范儿</a></li>
-            <li><a href="https://www.cnet.com/" target="_blank">CNET</a></li>
-        </ul>
+            <div class="category">
+                <h2>学习教育</h2>
+                <div class="shortcuts">
+                    <div class="shortcut">
+                        <a href="https://www.icourse163.org/" target="_blank">
+                            <img src="icons/icourse163.png" alt="中国大学MOOC">
+                            <span>中国大学MOOC</span>
+                        </a>
+                    </div>
+                    <div class="shortcut">
+                        <a href="https://www.xuetangx.com/" target="_blank">
+                            <img src="icons/xuetangx.png" alt="学堂在线">
+                            <span>学堂在线</span>
+                        </a>
+                    </div>
+                    <div class="shortcut">
+                        <a href="https://www.imooc.com/" target="_blank">
+                            <img src="icons/imooc.png" alt="慕课网">
+                            <span>慕课网</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script src="script.js"></script>
